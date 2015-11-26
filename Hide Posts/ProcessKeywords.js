@@ -27,9 +27,10 @@ function restore() {
 //Insert sample words
 function getSampleblock_keywords() {
     var sampleblock_keywords = [
-       "Replace",
-       "these",
-       "keywords"
+       "Intolerance",
+       "BJP",
+       "Congress",
+       "Modi"
     ];
     return sampleblock_keywords.join(", ");
 }

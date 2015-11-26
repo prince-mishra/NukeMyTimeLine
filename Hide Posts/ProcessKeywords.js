@@ -30,7 +30,9 @@ function getSampleblock_keywords() {
        "Intolerance",
        "BJP",
        "Congress",
-       "Modi"
+       "Modi",
+       "Intolerant",
+       "Communal"
     ];
     return sampleblock_keywords.join(", ");
 }

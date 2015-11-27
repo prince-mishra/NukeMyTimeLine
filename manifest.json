@@ -1,7 +1,7 @@
 {
-    "name": "Hide Posts",
+    "name": "NukeMyTimeLine",
     "version": "0.1.0",
-    "description": "Hide posts that you don't want in your Facebook feed.",
+    "description": "Nuke your facebook feed off the topics you don't want",
     "browser_action": {
         "default_icon": "icons/icon48.png",
         "default_popup": "Keywords.html"

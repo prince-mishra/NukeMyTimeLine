@@ -15,7 +15,7 @@ var hideForMe = function(regex) {
             if (jQuery(this).closest(facebookStoryClass + ".HidePost").length > 0) {
                 return false;
             }
-            var matches = regex.exec(this.textContent);
+            var matches = regex.exec(this.innerHTML);
             if (matches !== null) {
                 var matchingString = matches.join(", ");
                 var story = jQuery(this);

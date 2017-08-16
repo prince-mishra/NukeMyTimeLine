@@ -17,7 +17,7 @@ function restore() {
     chrome.storage.sync.get("HidePost_block_keywords", function(response) {
         var block_keywords = response["HidePost_block_keywords"];
         if (!block_keywords) {
-            block_keywords = getSampleblock_keywords();
+            block_keywords = "";
         }
         document.getElementById("block_keywords").value = block_keywords;
     });
